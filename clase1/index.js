@@ -70,7 +70,15 @@ crear una funcion que recorra un array de numeros
 los sume y me devuelva el resultado de la suma
 [1, 3, 5, 6, 12, 42, 13, 411]
 */
+function suma (array) {
+  let eachPlus = 0;
+  for (let x = 0; x < array.length; x++) {
+      eachPlus = array[x] + eachPlus;
+  }
+  console.log (eachPlus);
+}
 
+suma ([1, 3, 5, 6, 12, 42, 13, 411]);
 
 /*
 crear una funcion que vaya contando desde 0 hasta el numero pedido por parametro 
